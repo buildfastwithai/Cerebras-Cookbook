@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="https://github.com/Shubhwithai/Cerebras-Cookbook/blob/main/images/cerebras-banner.svg" alt="Cerebras Banner" width="800"/>
+  <img src="https://github.com/Shubhwithai/Cerebras-Cookbook/blob/main/images/cerebras%20logo.svg" alt="Cerebras Banner" width="800"/>
 </p>
 
 <p align="center">
