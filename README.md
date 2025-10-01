@@ -191,10 +191,6 @@ cerebras-cookbook/
 - **Documentation**: Visit [Cerebras Documentation](https://docs.cerebras.ai)
 - **Contact**: Reach out to Cerebras support team
 
-### Video Tutorial
-
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
 ## Contributing
 
 We welcome contributions to the Cerebras-Cookbook repository! To contribute:
