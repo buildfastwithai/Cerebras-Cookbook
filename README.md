@@ -30,7 +30,7 @@ Cerebras Systems builds the world's largest computer chip - the **Wafer Scale En
 
 ## Cerebras Starter Guide
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/Shubhwithai/Cerebras-Cookbook/blob/main/get-started/getting_started_cerebras_sdk_.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/17BMZjby9ZZ6cJopyu4xWiAE6Nj3gNIBy?usp=sharing#scrollTo=ea1OXT-EBDCG)
 
 ## Get Your API Key
 
