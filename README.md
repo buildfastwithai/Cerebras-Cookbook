@@ -22,14 +22,11 @@ Cerebras Systems builds the world's largest computer chip - the **Wafer Scale En
 
 | Section | Description |
 |---------|-------------|
-| **Get Started** | Quick setup guides, API authentication, and your first model |
-| **Inference Examples** | Fast inference with Cerebras Cloud API and various model implementations |
-| **Training Recipes** | Large-scale model training on Wafer-Scale Engine clusters |
-| **Model Zoo Integration** | Working with pre-trained models from Cerebras Model Zoo |
-| **Performance Optimization** | Tips for maximizing WSE performance and efficiency |
-| **Integration Guides** | Connecting Cerebras with popular ML frameworks (PyTorch, Hugging Face) |
-| **Production Deployment** | Best practices for deploying models at scale |
-| **Starter Apps** | Ready-to-use application templates and demos |
+| **[Get Started](./get-started/)** | SDK setup guides, authentication, and model exploration examples |
+| **[Agents](./agents/)** | AI agent implementations using Cerebras with CrewAI and Agno frameworks |
+| **[Chat with Data](./chat-with-data/)** | RAG implementations, multilingual PDF chat, and fusion techniques |
+| **[Integrations](./integrations/)** | Framework integrations including LiteLLM for seamless API switching |
+| **[Starter Apps](./starter-apps/)** | Production-ready applications: AI book writer and mindmap generator |
 
 ## Cerebras Starter Guide
 
