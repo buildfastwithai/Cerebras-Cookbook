@@ -133,44 +133,33 @@ main();
 
 ## Features
 
-- **Wafer-Scale Training**: Leverage the world's largest chip for unprecedented training speed
 - **Fast Inference**: Ultra-low latency inference with Cerebras Cloud
 - **Model Zoo Integration**: Access to optimized pre-trained models
 - **OpenAI-compatible API**: Easy migration from OpenAI to Cerebras
 - **Streaming Support**: Real-time response streaming capabilities
 - **Enterprise Ready**: Production-grade infrastructure and support
 
-## Repository Structure
-
-```
-cerebras-cookbook/
-├── getting-started/          # Setup guides and first steps
-├── inference/               # Cerebras Cloud inference examples
-│   ├── chat-completions/   # Chat and completion examples
-│   ├── streaming/          # Streaming response examples
-│   └── tool-use/           # Function calling examples
-├── training/               # WSE training recipes
-│   ├── nlp/               # Language model training
-│   ├── computer-vision/   # Vision model training
-│   └── multimodal/        # Multimodal training
-├── model-zoo/             # Cerebras Model Zoo examples
-├── integrations/          # Framework integrations
-│   ├── pytorch/           # PyTorch integration
-│   ├── huggingface/       # Hugging Face integration
-│   └── langchain/         # LangChain integration
-├── optimization/          # Performance tuning guides
-├── production/            # Deployment best practices
-├── starter-apps/          # Ready-to-use applications
-└── utils/                 # Utility scripts and helpers
-```
 
 ## Available Models
 
-| Model | Description | Use Cases |
-|-------|-------------|-----------|
-| **Llama-4-Scout-17B** | High-performance instruction-tuned model | Chat, reasoning, code generation |
-| **Llama-3.1-8B** | Efficient general-purpose model | Text generation, summarization |
-| **Llama-3.1-70B** | Large-scale model for complex tasks | Advanced reasoning, research |
+### Production Models
+
+| Model | Model ID | Description | Use Cases |
+|-------|----------|-------------|-----------|
+| **Llama 4 Scout 17B** | `llama-4-scout-17b-16e-instruct` | High-performance instruction-tuned model | Chat, reasoning, code generation |
+| **Llama 3.1 8B** | `llama3.1-8b` | Efficient general-purpose model | Text generation, summarization |
+| **Llama 3.3 70B** | `llama-3.3-70b` | Large-scale model for complex tasks | Advanced reasoning, research |
+| **OpenAI GPT OSS 120B** | `gpt-oss-120b` | Open-source GPT-style model | General text generation, chat |
+| **Qwen 3 32B** | `qwen-3-32b` | Multilingual model with strong reasoning | Multilingual tasks, reasoning |
+
+### Preview Models
+
+| Model | Model ID | Description | Use Cases |
+|-------|----------|-------------|-----------|
+| **Llama 4 Maverick 17B** | `llama-4-maverick-17b-128e-instruct` | Extended context Llama 4 variant | Long-form content, extended reasoning |
+| **Qwen 3 235B Instruct** | `qwen-3-235b-a22b-instruct-2507` | Large instruction-tuned model | Complex reasoning, advanced tasks |
+| **Qwen 3 235B Thinking** | `qwen-3-235b-a22b-thinking-2507` | Reasoning-focused variant | Chain-of-thought, problem solving |
+| **Qwen 3 480B Coder** | `qwen-3-coder-480b` | Specialized code generation model | Code generation, programming tasks |
 
 ## Resources
 
